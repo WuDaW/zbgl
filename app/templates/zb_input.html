@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>装备入库</title>
+    <link rel="stylesheet" type="text/css" href="static/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="static/easyui/themes/icon.css">
+	<script type="text/javascript" src="static/easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="static/easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="static/easyui/locale/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+    <div>
+        <form action="" method="post">
+            <table>
+                <tr align="center">
+                    <td>选择仓库：</td>
+                    <td><input class="easyui-combobox" id="ckid" name="ckid" data-options="editable:false,valueField:'ckyt_id',textField:'ckyongtu',url:'/ytcombobox'"/></td>
+                </tr>
+                <tr>
+                    <td>装备名称：</td>
+                    <td><input class="easyui-combobox" id="zbname"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div>
+        <table class="easyui-datagrid">
+
+        </table>
+    </div>
+</body>
+</html>

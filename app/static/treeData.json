@@ -1,0 +1,34 @@
+[{
+    "id":1,
+    "text":"装备物资管理系统",
+    "state":"open",
+    "children":[{
+        "text":"仓库管理",
+        "attributes":{
+            "url":""
+        },
+        "children":[{
+            "text":"新建仓库",
+            "iconCls":"icon-add",
+            "attributes":{
+                "url":"ck_info.html?ck_id=1"
+            }
+        },{
+            "text":"一号仓库",
+            "attributes":{
+                "url":"/ck_info?ck_id=1"
+            }
+        }]
+    },{
+        "text":"装备库管理"
+    },{
+        "text":"物资库管理"
+    },{
+        "text":"出入库操作",
+        "children":[{
+            "text":"装备入库"
+        },{
+            "text":"物资入库"
+        }]
+    }]
+}]
