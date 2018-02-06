@@ -17,7 +17,8 @@ git clone https://github.com/WuDaW/zbgl.git
 3. 在本地修改zbgl文件夹中文件（添加、删除、修改）
 4. 使用下面的命令将修改的文件放到暂存区
 ```bash
-git add <filename>
+git add <filename> #添加单个文件到暂存区
+git add -A #添加所有修改的文件暂存区
 ```
 5. 使用下面的命令将暂存区的文件提交到当前分支中
 ```bash
