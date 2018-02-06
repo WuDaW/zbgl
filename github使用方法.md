@@ -27,6 +27,10 @@ git commit -m "说明/备注"
 ```bash
 git push origin master(分支名)
 ```
+7. 使用下面的命令将远程修改的代码拉取到本地分支上
+```bash
+git pull origin master
+```
 
 ## 三、分支的使用
 1. 说明
